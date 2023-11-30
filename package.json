@@ -1,0 +1,14 @@
+{
+  "name": "ts-starter",
+  "author": "BADtochka",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsc && node ./dist",
+    "start:dev": "nodemon --quiet -e ts -x \"npm run start || exit 1\""
+  },
+  "devDependencies": {
+    "nodemon": "*",
+    "typescript": "*"
+  }
+}
+
